@@ -5,7 +5,7 @@ export const onRequest: PagesFunction<Env> = async ({ params }) => {
   console.log('onRequest', 'slug', slug);
 
   return new ImageResponse(
-    <div style={{ display: "flex" }}>Hello, world!</div>,
+    <div style={{ display: "flex" }}>Hello, {slug}!</div>,
     {
       width: 1200,
       height: 630,
