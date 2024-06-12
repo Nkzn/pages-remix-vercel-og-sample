@@ -7,6 +7,7 @@ export const meta: MetaFunction = () => {
       name: "description",
       content: "Welcome to Remix on Cloudflare!",
     },
+    { property: "og:image", content: "https://pages-remix-vercel-og-sample.pages.dev/og-image/awesome-slug.png"}
   ];
 };
 

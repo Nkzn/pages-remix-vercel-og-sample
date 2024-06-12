@@ -15,9 +15,13 @@ export const onRequest: PagesFunction<Env> = async ({ params }) => {
           alignItems: "center",
           justifyContent: "center",
           color: 'white',
+          fontSize: '2em',
+          textAlign: 'center',
         }}
       >
-        Hello, {slug}!
+        Remix on Cloudflare Pages<br />
+        with Vercel OG Image<br />
+        slug: {slug}
       </div>
     ),
     {
